@@ -1,0 +1,47 @@
+/*
+ * main.c
+ *
+ *  Created on: Aug 14, 2023
+ *      Author: aliemad
+ */
+
+#include <avr/io.h>
+#include <util/delay.h>
+#include "BIT_MATH.h"
+
+//#define PORTA
+
+int main(void){
+
+	while(1){
+		DDRA |= 0b00000111;
+
+		SET_BIT(PORTA, PA0);
+		_delay_ms(3000);
+		_delay_ms(3000);
+		_delay_ms(1000);
+
+		SET_BIT(PORTA, PA1);
+		_delay_ms(500);
+		CLR_BIT(PORTA, PA1);
+		_delay_ms(500);
+		SET_BIT(PORTA, PA1);
+		_delay_ms(500);
+		CLR_BIT(PORTA, PA1);
+		_delay_ms(500);
+		SET_BIT(PORTA, PA1);
+		_delay_ms(1000);
+
+		CLR_BIT(PORTA, PA0);
+		CLR_BIT(PORTA, PA1);
+
+		SET_BIT(PORTA, PA2);
+		_delay_ms(3000);
+		_delay_ms(3000);
+		_delay_ms(3000);
+		_delay_ms(1000);
+		CLR_BIT(PORTA, PA2);
+	}
+
+	return 0;
+}

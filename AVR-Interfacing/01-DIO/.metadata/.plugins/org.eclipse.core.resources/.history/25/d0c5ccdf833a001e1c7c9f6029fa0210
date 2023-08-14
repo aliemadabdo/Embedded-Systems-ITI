@@ -1,0 +1,17 @@
+/*
+ * main.c
+ *	LAB 1
+ *  Created on: Aug 14, 2023
+ *      Author: Ali Emad
+ */
+
+#include <avr\io.h>
+
+int main(void){
+	DDRD |= (1<<PA0);
+	PORTA |= (1<<PA0);
+
+	while(1);
+
+	return 0;
+}

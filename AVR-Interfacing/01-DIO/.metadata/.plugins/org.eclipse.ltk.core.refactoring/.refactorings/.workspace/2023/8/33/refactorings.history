@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;01_test/BIY_MATH&apos;" deleteContents="false" description="Delete resource &apos;01_test/BIY_MATH&apos;" element1="/01_test/BIY_MATH" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1692005339758"/>&#x0A;<refactoring comment="Delete resource &apos;01_test/BIT_Math-1.h&apos;" deleteContents="false" description="Delete resource &apos;01_test/BIT_Math-1.h&apos;" element1="/01_test/BIT_Math-1.h" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1692005430453"/>
+</session>
